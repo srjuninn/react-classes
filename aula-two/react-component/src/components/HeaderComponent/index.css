@@ -1,0 +1,58 @@
+@import url(../../styles/reset.css);
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100dvw;
+    padding: 10px 10px;
+}
+header > img {
+    width: 100px;
+    height: auto;
+}
+header > nav > ul> li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+header > nav > ul > li > a {
+    font-size: 18px;
+    color: gray;
+}
+header > nav > ul > li > a:hover{
+    color: black;
+    text-decoration: underline;
+}
+header > .buttonWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.buttonWrapper> button:nth-child(1) {
+    padding: 10px 40px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+}
+.buttonWrapper> button:nth-child(1):hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+.buttonWrapper> button:nth-child(2) {
+    padding: 10px 40px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+}
+.buttonWrapper> button:nth-child(2):hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s ease-in;
+}
