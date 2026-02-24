@@ -1,0 +1,16 @@
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description, .category, p {
+    margin-top: 20px;   
+    width: 700px;
+    font-size: 1rem;
+    text-align: center;
+}
+article > img {
+    width: 200px;
+    height: auto;
+}
